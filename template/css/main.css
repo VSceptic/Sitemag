@@ -1243,7 +1243,7 @@ h2.title {
 }
 
 .product-information {
-    border: 1px solid #F7F7F0;
+    /*border: 1px solid #F7F7F0;*/
     overflow: hidden;
     padding-bottom: 60px;
     padding-left: 60px;
@@ -1265,7 +1265,7 @@ h2.title {
 }
 
 .product-information p {
-    color: #696763;
+    color: #f8fafb;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 5px;
 }
@@ -1277,7 +1277,7 @@ h2.title {
 }
 
 .product-information span span {
-    color: #FE980F;
+    color: #f8fafb;
     float: left;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
