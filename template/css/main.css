@@ -84,7 +84,10 @@ a#scrollUp i{
 **************************/
 
 .header_top {
-    background: none repeat scroll 0 0 #F0F0E9;
+    background: none repeat scroll 0 0 #232313;
+}
+.header_top a {
+    background-color: transparent;
 }
 
 .contactinfo ul li:first-child{
@@ -363,7 +366,7 @@ ul.sub-menu {
 
 #footer {
     background: #F0F0E9;
-    height: 50px;
+    height: auto;
 }
 
 
@@ -562,7 +565,9 @@ ul.sub-menu {
 }
 
 .footer-bottom {
-    padding-top: 15px;
+    padding-top: 5px;
+    height: auto;
+    min-height: 60px;
 }
 
 .footer-bottom p {
@@ -570,6 +575,7 @@ ul.sub-menu {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     margin-left: 15px;
+    margin-top: 10px;
 }
 
 .footer-bottom p span a {
@@ -2574,4 +2580,30 @@ a{
 a:hover{
     background-color: #827f7f !important;
     color: #faff0d !important;
+}
+table.table tbody tr th,tr td{
+    background: transparent !important;
+    color: white;
+}
+
+.social{
+    list-style: none;
+    height: auto;
+}
+.social ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+.social ul li{
+    display: inline-block;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+.header_top a:hover {
+    background-color: transparent !important;
+}
+.social a:hover{
+    background-color: transparent !important;
 }

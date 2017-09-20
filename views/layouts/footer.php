@@ -6,7 +6,13 @@
         <div class="container">
             <div class="row">
                 <p class="pull-left">Copyright © 2017</p>
-                <p class="pull-right">Интернет магазин</p>
+                <div class="social pull-right">
+                    <ul>
+                        <li><a href="#"><img src="/template/images/fb.png"></a></li>
+                        <li><a href="#"><img src="/template/images/vk.png"></a></li>
+                    </ul>
+                </div>
+<!--                <p class="pull-right">Интернет магазин</p>-->
             </div>
         </div>
     </div>
